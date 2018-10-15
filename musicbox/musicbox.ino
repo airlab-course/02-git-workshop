@@ -23,7 +23,6 @@ int melodyLength2 = 4;
 void setup()
 {
     buzzer.setMelody(notes, durations, melodyLength);
-    Serial.begin(115200);
 }
 
 void loop()
